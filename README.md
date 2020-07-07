@@ -52,6 +52,9 @@ Before you start using the script, you need to follow a few steps:
 9. Enjoy
   a. the script is not malicious, it has been tested on other machines with various distributions (Debian based), and following all the steps it will work;
 
+## Info
+Hi, I'm loreame! I am the creator of this open-source script. I am new to the world of programming, and this is my first non-profit project.My goal is to share what I study and create with everyone, to help people like me, the apprentices of this world.
+
 ## Support
 If you need technical support or further information, write to this e-mail address: loreame@protonmail.com
 
