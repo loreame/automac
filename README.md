@@ -35,25 +35,29 @@ Before you start using the script, you need to follow a few steps:
    ```bash
    sudo bash /path/autoMac.sh
    ```
+   
 ## Automation
 8. To make the script executable when the computer is started, it must be entered in the system startup list: 
    a. If you use Ubuntu: Search Startup Application> Add> Enter a name and this command by changing the file path: 
    ```bash
    gnome-terminal --tab -e 'sudo bash /your/path/autoMac.sh'
    ```
+   
    b. If you use other linux distributions, use this command on the terminal: 
    ```bash
    sudo update-rc.d /etc/init.d/autoMac.sh defaults
    ```
+   
    c. You can check if your mac address has been changed correctly by typing this command on the console:
    ```bash
    ip link show
    ```
+   
 9. Enjoy
   a. the script is not malicious, it has been tested on other machines with various distributions (Debian based), and following all the steps it will work;
 
 ## Info
-Hi, I'm loreame! I am the creator of this open-source script. I am new to the world of programming, and this is my first non-profit project.My goal is to share what I study and create with everyone, to help people like me, the apprentices of this world.
+Hi, I'm loreame, the official creator of this open-source script. I am new to the world of programming, and this is my first non-profit project.My goal is to share what I study and create with everyone, to help people like me, the apprentices of this world.
 
 ## Support
 If you need technical support or further information, write to this e-mail address: loreame@protonmail.com
