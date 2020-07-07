@@ -33,7 +33,7 @@ Before you start using the script, you need to follow a few steps:
 
 7. You are now ready to use AutoMac! To use it you have to run it like a normal bash script: 
    ```bash
-   bash /path/autoMac.sh
+   sudo bash /path/autoMac.sh
    ```
 ## Automation
 8. To make the script executable when the computer is started, it must be entered in the system startup list: 
@@ -45,8 +45,12 @@ Before you start using the script, you need to follow a few steps:
    ```bash
    sudo update-rc.d /etc/init.d/autoMac.sh defaults
    ```
-   c. Enjoy!
-   
+   c. You can check if your mac address has been changed correctly by typing this command on the console:
+   ```bash
+   ip link show
+   ```
+9. Enjoy
+
 ## Support
 If you need technical support or further information, write to this e-mail address: loreame@protonmail.com
 
