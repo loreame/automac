@@ -16,11 +16,11 @@ Before you start using the script, you need to follow a few steps:
    ip link show
    ```
    
-3. Copy the name of the network interface to which you want to change the mac address;
+3. Copy the name of the network interface to which you want to use;
 
 4. Open the autoMac.sh file with a text editor;
 
-5. Replace wlp10s0 with the name of the card you copied and save;
+5. Replace "wlp10s0" with the name of the network interface you copied previously and save;
 
 6. Make the script executable as a program by assigning it the necessary permissions
    a. If you use Ubuntu: right click on the AutoMac.sh file> Properties> Permissions> enable the tick on "Execute: Allow executing file as a program";
@@ -50,6 +50,7 @@ Before you start using the script, you need to follow a few steps:
    ip link show
    ```
 9. Enjoy
+  a. the script is not malicious, it has been tested on other machines with various distributions (Debian based), and following all the steps it will work;
 
 ## Support
 If you need technical support or further information, write to this e-mail address: loreame@protonmail.com
