@@ -7,9 +7,9 @@ AutoMac is an executable script on linux written in bash language to automatical
 Before you start using the script, you need to follow a few steps:
 
 1. Install macchanger from terminal;
-```bash
-sudo apt-get install macchanger
-```
+    ```bash
+    sudo apt-get install macchanger
+    ```
 2. Make the script executable as a program by assigning it the necessary permissions
    a. If you use Ubuntu: right click on the AutoMac.sh file> Properties> Permissions> enable the tick on "Execute: Allow executing file as a program";
    b. If you use other linux distributions: 
@@ -19,9 +19,9 @@ sudo apt-get install macchanger
 ## Usage
 
 3. You are now ready to use AutoMac! To use it you have to run it like a normal bash script: 
-```bash
+   ```bash
    bash /path/autoMac.sh
-```
+   ```
 ## Automation
 4. To make the script executable when the computer is started, it must be entered in the system startup list: 
    a. If you use Ubuntu: Search Startup Application> Add> Enter a name and this command by changing the file path: 
@@ -34,10 +34,6 @@ sudo apt-get install macchanger
    ```
 ## Support
 5. If you need technical support or further information, write to this e-mail address: loreame@protonmail.com
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## License
 [MIT](http://ftp.gnu.org/gnu/bash/)
